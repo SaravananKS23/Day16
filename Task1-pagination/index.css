@@ -1,0 +1,44 @@
+*{
+    font-family: sans-serif;
+    font-size: 100%;
+}
+
+table,
+tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+td:first-child{
+    width: 70px;
+}
+td:nth-child(2){
+    width: 300px;
+}
+
+#page{
+    display: inline-block;
+    text-align: center;
+    width: 35px;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    padding: 3px 0px;
+}
+#page1{
+    display: inline-block;
+    text-align: center;
+    width: 35px;
+    color: black;
+    padding: 3px 0px;
+background-color: lightgray;
+}
+#page2{
+    display: inline-block;
+    text-align: center;
+    width: 35px;
+    color: black;
+    padding: 3px 0px;
+background-color: lightgray;
+}
